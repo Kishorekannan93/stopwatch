@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    background-color: aquamarine;
+    
+    background-repeat: no-repeat;
+ 
+}
+
+.stopwatch{
+    background: rgb(235,232,227);
+background: linear-gradient(0deg, rgb(255, 255, 254) 46%, rgb(29, 221, 157) 100%);
+    width:60%;
+    max-width: 600px;
+    margin:190px auto 0;
+    padding:10px;
+    text-align: center;
+    border-radius: 50px;
+    border:2px solid
+
+
+}
+
+img{
+    width:40px;
+    cursor:pointer;
+    background-color: aquamarine;
+}
+
+.buttons{
+    color: aquamarine;
+}
+
+img:nth-child(2){
+    width:60px
+    
+}
+img:nth-child(3){
+    width:50px
+    
+}
+img:nth-child(1){
+    width:50px
+    
+}
+
+img:hover{
+    transform:translate(1px,10%);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
